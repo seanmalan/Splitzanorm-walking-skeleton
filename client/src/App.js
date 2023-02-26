@@ -1,40 +1,15 @@
-// import logo from './logo.svg';
-// import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+// import { BsBag } from "react-icons/bs";
 
-// export default App;
-
-
-import React from "react";
-import Products from "./Products";
-import Header from "./component/Header";
-
+// import Logo from "../public/img/Logo.png"
+import Header  from "./component/Header";
+import Products from "./component/Products";
 
 const App = () => {
 
-return (
+  return (
     <>
-    <div className="overflow-hidden">
+    <div className="">
     <Header />
     <Products />
     </div>
@@ -43,4 +18,31 @@ return (
 )};
 
 
+
+   
+    //*     
+//     <div className="">
+    
+    
+//     </div>
+//     <div>
+//           <a
+//             href="https://buy.stripe.com/test_eVa3d253o51a5Ww144"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//           >
+//             <button>Buy now</button>
+//           </a>
+//         </div>
+// </> 
+
+
+
+
 export default App;
+
+
+
+
+
+

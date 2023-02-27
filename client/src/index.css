@@ -13,9 +13,6 @@ code {
 }
 
 button {
-  margin: 0 auto;
-}
-li {
-  text-decoration: none;
-  list-style: none;
-}
+    transition-duration: 0.4s;
+ }
+

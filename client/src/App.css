@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 10vmin;
+  height: 8vmin;
   margin: 0 auto;
   pointer-events: none;
 }
@@ -13,7 +13,7 @@
   height: 10vmin;
 }
 .App-header {
-  background-color: rgb(242, 240, 240);
+  background-color: white;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 .App-body {
-  background-color: rgb(242, 240, 240);
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -62,23 +62,28 @@
 }
 
 .App-button {
-  background-color: #800870;
-  color: white;
   margin: 2rem;
   border: none;
   border-radius: 2px;
   min-width: 8rem;
   max-width: 10rem;
-  /* border-style: none;
-  border-radius: 3px; */
-  transition-duration: 0.4s;
+  background-color: #443844;
+  color: white;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 3px; 
   padding: 1rem 1rem;
 }
 
-.button:hover {
+button:hover {
   background-color: #800870;
-  color: white;
 }
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

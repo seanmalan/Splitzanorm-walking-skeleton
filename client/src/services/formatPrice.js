@@ -1,4 +1,4 @@
-// const formatPrice = (Price) => {
+// const formatIntlPrice = (Price) => {
 //   const numberFormat = new Intl.NumberFormat('en-NZ', {
 //     style: 'currency',
 //     currency: 'NZD',
@@ -8,4 +8,4 @@
 //   return numberFormat.format(total);
 // };
  
-// export default formatPrice;
+// export default formatIntlPrice;

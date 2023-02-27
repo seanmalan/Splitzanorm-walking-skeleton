@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Stripe from 'stripe';
-
 const stripe = new Stripe(process.env.STRIPE_TEST_API_KEY);
 const priceId = process.env.STRIPE_PRICE_ID
 
@@ -56,6 +55,8 @@ const Price = () => {
     // const productPrice=(FormatPrice(stripePrice.unit_amount));
     const productPrice=(formatPrice(7900));
     console.log(productPrice);
+
+
 
     // const formatPrice = (amount) => {
     //   const numberFormat = new Intl.NumberFormat("en-NZ", {

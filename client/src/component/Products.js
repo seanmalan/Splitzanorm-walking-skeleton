@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
-import Price from "./Price.js";
-import { getProducts } from "../services/checkout.js"
+import React, { useState, useEffect } from 'react';
+import Price from './Price.js';
+import { getProducts } from '../services/checkout.js';
+// import formatIntlPrice from './service/formatPrice';
 
 const productId = process.env.STRIPE_PRODUCT_ID;
 
@@ -9,7 +10,7 @@ const Products = () => {
   useEffect(() => {
     const fetchData = async () => {
       // const product = await stripe.products.retrieve(productId);
-      const product = await getProducts()
+      const product = await getProducts();
       console.log(product);
       setProducts(product);
     };
@@ -74,7 +75,6 @@ const Products = () => {
           );
         })}
         <div>
-         
           <a
             href='https://buy.stripe.com/test_eVa3d253o51a5Ww144'
             target='_blank'
@@ -87,7 +87,5 @@ const Products = () => {
     </>
   );
 };
-
-
 
 export default Products;

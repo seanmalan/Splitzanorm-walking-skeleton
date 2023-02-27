@@ -3,29 +3,85 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;
+  margin: 0 auto;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-icon {
+  color: white;
+  height: 10vmin;
+}
+.App-header {
+  background-color: white;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(242, 240, 240);
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
+ 
+}
+
+.App-card {
+  background-color:  white;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(242, 240, 240);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-button {
+  margin: 2rem;
+  border: none;
+  border-radius: 2px;
+  min-width: 8rem;
+  max-width: 10rem;
+  background-color: #443844;
+  color: white;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 3px; 
+  padding: 1rem 1rem;
+}
+
+button:hover {
+  background-color: #800870;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
 }
 
 @keyframes App-logo-spin {

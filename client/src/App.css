@@ -13,7 +13,7 @@
   height: 10vmin;
 }
 .App-header {
-  background-color: white;
+  background-color: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,10 @@
 }
 
 .App-body {
+  color: white;
+}
+
+.App-main {
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -44,6 +48,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #282c34;
+
 }
 
 .App-footer {
@@ -55,6 +60,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(242, 240, 240);
+
 }
 
 .App-link {

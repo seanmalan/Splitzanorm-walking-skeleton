@@ -1,26 +1,20 @@
 
 // import { BsBag } from "react-icons/bs";
-
-// import Logo from "../public/img/Logo.png"
-
 import Header  from "./component/Header";
 import Products from "./component/Products";
 import Footer from "./component/Footer"
 const App = () => {
 
   return (
+
     <>
       <div className='App'>
-     
-          <Header />
-       
-        <main className='App-body'>
-          <div className="App-card">
-            <Products />
-          </div>
-        </main>
-        <Footer />
-      </div>
+    <> <Header/>
+    <main className="">
+      <h1>App H1 Main Heading</h1>
+    <Products />
+    </main>
+    <footer className="App-footer">© 2023 splitzanorm inc.</footer>
     </>
     // <>
   );};
@@ -28,11 +22,10 @@ const App = () => {
 
 
    
-    //*     
-//     <div className="">
+//     <main className="">
     
     
-//     </div>
+//     </main>
 //     <div>
 //           <a
 //             href="https://buy.stripe.com/test_eVa3d253o51a5Ww144"

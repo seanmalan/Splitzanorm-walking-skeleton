@@ -4,8 +4,10 @@
 // } from 'react'
 // import api from "../api"
 
+
 // const ApiPostButton = () => {
 // const [apiMsg, setApiMsg] = useState(null)
+
 
 //     const handleApiMsg = async () => {
 //     const response = await addApiMsg()
@@ -17,8 +19,10 @@
 //   )
 // }
 
+
 // const ApiGetButton = () => {
 // const [apiGetMsg, setApiGetMsg] = useState(null)
+
 
 //     const handleApiMsg = async () => {
 //     const response = await getApiMsg()

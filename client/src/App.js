@@ -18,24 +18,6 @@ const App = () => {
 
 
 
-   
-//     <main className="">
-    
-    
-//     </main>
-//     <div>
-//           <a
-//             href="https://buy.stripe.com/test_eVa3d253o51a5Ww144"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             <button>Buy now</button>
-//           </a>
-//         </div>
-// </> 
-
-
-
 
 export default App;
 

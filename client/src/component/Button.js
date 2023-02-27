@@ -6,7 +6,7 @@
 
 
 // const ApiPOSTButton = () => {
-// const [apiMsg, setApiMsg] = useState(null)
+// const [apiMsg, setApiMsg] = useState("")
 
 //     const handleApiMsg = async () => {
 //     const response = await addApiMsg()
@@ -19,7 +19,7 @@
 // }
 
 // const ApiGETButton = () => {
-// const [apiGetMsg, setApiGetMsg] = useState(null)
+// const [apiGetMsg, setApiGetMsg] = useState("")
 
 //     const handleApiMsg = async () => {
 //     const response = await getApiMsg()

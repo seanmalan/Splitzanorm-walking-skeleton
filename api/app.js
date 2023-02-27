@@ -6,7 +6,6 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
-
 // app.post('/test', function (req, res, next) {
 //   const testPostMsg = { message: 'Posting is working!! 🛎️' }
 //   res.json(testPostMsg).sendStatus(201);

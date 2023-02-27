@@ -16,7 +16,7 @@
 
 // test get endpoint
 // const getApiMsg = async () => {
-//   const response = await fetch(`http://localhost:5001/test`, {
+//   const response = await fetch(`http://localhost:5001/`, {
 //     method: "POST",
 //     headers: {
 //       Accept: "application/json",

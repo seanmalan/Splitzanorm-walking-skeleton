@@ -1,3 +1,4 @@
+
 import React from "react";
 import { BsBag } from "react-icons/bs";
 // import logo from "Logo.png";
@@ -28,4 +29,4 @@ l              href="https://buy.stripe.com/test_eVa3d253o51a5Ww144"
   );
 };
 
-export default Header;
+export default div;
